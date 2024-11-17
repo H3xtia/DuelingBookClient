@@ -1,0 +1,31 @@
+{
+  "name": "duelingbook-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.duelingbook.app",
+    "productName": "DuelingBook Electron",
+    "win": {
+      "target": [
+        "nsis", 
+        "portable" 
+      ],
+      "icon": "assets/icon.png"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

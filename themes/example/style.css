@@ -1,0 +1,14 @@
+img#brionac_large {
+    display: block; /* Ensures it behaves like a block element */
+    width: 1370px; /* Set the width */
+    height: 1370px; /* Set the height */
+    background-image: url('https://i.imgur.com/sYvMRu5.png'); /* Set a new background image */
+    background-size: cover; /* Ensure the background covers the area */
+    background-position: center; /* Center the background */
+    opacity: 1; /* Make the image itself invisible, if needed */
+}
+
+#yugioh_logo, #db_logo {
+    display: none;
+}
+
