@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Electron packaging files (if you use any packaging tools like electron-builder)
+/dist
+/build
+
+# Dependency directories or output folders from bundling tools like Webpack
+/.webpack
+/.parcel-cache
+
+# IDE/Editor files (if any)
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
